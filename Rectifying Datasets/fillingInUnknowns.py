@@ -199,6 +199,7 @@
 
 
 import os
+from dotenv import load_dotenv
 import pandas as pd
 import numpy as np
 import google.generativeai as genai
@@ -336,7 +337,8 @@ class LegalCaseImputer:
 
 # Example usage
 async def main():
-    API_KEY = "AIzaSyDpT7ravwOs5h8nAwK9koTr_gv4M5KsWBs"
+    load_dotenv()
+    API_KEY = os.environ["GOOGLE_API_KEY"]
 
     # Load dataset
     df = pd.read_csv("IndianKanoon_Cases_100.csv")

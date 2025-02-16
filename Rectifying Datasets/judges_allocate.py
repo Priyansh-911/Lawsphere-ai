@@ -1,8 +1,13 @@
+import os
+from dotenv import load_dotenv
 import json
 import google.generativeai as genai
 
+load_dotenv()
+API_KEY = os.environ["GOOGLE_API_KEY"]
+
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDpT7ravwOs5h8nAwK9koTr_gv4M5KsWBs")
+genai.configure(api_key=API_KEY)
 
 # Load judge data
 with open("judges_data.json", "r") as file:
