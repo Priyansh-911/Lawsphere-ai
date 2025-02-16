@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Justice A. Sharma",
+        "specialization": "Civil",
+        "past_cases": ["Tax", "Customs Valuation", "Property Disputes", "Contract Disputes"],
+        "success_rate": 85,
+        "pending_cases": 12
+    },
+    {
+        "name": "Justice B. Iyer",
+        "specialization": "Constitutional",
+        "past_cases": ["Election Disputes", "Writ Petitions", "State Law Challenges"],
+        "success_rate": 88,
+        "pending_cases": 8
+    },
+    {
+        "name": "Justice C. Mehta",
+        "specialization": "Criminal",
+        "past_cases": ["Murder", "Assault", "Narcotics Offenses", "Environmental Crimes"],
+        "success_rate": 80,
+        "pending_cases": 15
+    },
+    {
+        "name": "Justice D. Patel",
+        "specialization": "Corporate Law",
+        "past_cases": ["Insolvency", "Bankruptcy", "Company Law Disputes"],
+        "success_rate": 90,
+        "pending_cases": 10
+    },
+    {
+        "name": "Justice E. Reddy",
+        "specialization": "Tax Law",
+        "past_cases": ["Income Tax", "Excise Duty", "Customs"],
+        "success_rate": 82,
+        "pending_cases": 7
+    },
+    {
+        "name": "Justice F. Verma",
+        "specialization": "Environmental Law",
+        "past_cases": ["Illegal Mining", "Pollution Cases", "Public Interest Litigations (PIL)"],
+        "success_rate": 87,
+        "pending_cases": 9
+    },
+    {
+        "name": "Justice G. Nanda",
+        "specialization": "Labour Law",
+        "past_cases": ["Industrial Disputes", "Termination of Service"],
+        "success_rate": 75,
+        "pending_cases": 11
+    }
+]

@@ -1,0 +1,993 @@
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Tax Refund Suit",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 3 of the Madhya Bharat Sales Tax Act (Act 30 of 1950)",
+    "Section 5 of the Madhya Bharat Sales Tax Act (Act 30 of 1950)",
+    "Section 80 of the Code of Civil Procedure",
+    "Article 301 of the Constitution of India",
+    "Article 304(a) of the Constitution of India",
+    "Article 226 of the Constitution of India"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to Import Policy and Control Orders",
+  "party_count": 5,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 3 Exports and Imports (Control) Act",
+    "Clause 8 Exports and Imports (Control) Order",
+    "Clause 8A Exports and Imports (Control) Order",
+    "Clause 8B Exports and Imports (Control) Order"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Interpretation of 'Sale of Goods' under Government of India Act, 1935/Sales Tax Law",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Entry 48, Government of India Act, 1935",
+    "Sale of Goods Act, 1930"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to Commission of Inquiry",
+  "party_count": 3,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Section 3 of the Commissions of Inquiry Act", "Section 4 of the Commissions of Inquiry Act", "Section 5 of the Commissions of Inquiry Act", "Section 6 of the Commissions of Inquiry Act", "Section 7 of the Commissions of Inquiry Act", "Section 8 of the Commissions of Inquiry Act", "Section 9 of the Commissions of Inquiry Act", "Article 14 of the Constitution of India"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Election Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Article 329(b)", "Article 71(1)", "Section 100 of the Representation of the People Act, 1951", "Section 36 of the Representation of the People Act, 1951"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Criminal",
+  "case_subtype": "Murder and Assault",
+  "party_count": 7,
+  "seriousness": "HIGH",
+  "legal_sections": [
+    "Section 302 IPC",
+    "Section 34 IPC"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Challenge to Levy of Additional Excise Duties",
+    "party_count": 4,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Article 32 (Indian Constitution)",
+        "Entry 84 List I (Seventh Schedule, Indian Constitution)",
+        "Entry 97 List I (Seventh Schedule, Indian Constitution)",
+        "Section 2(f) (Central Excise Act)",
+        "Section 3(1) (Additional Duties of Excise (Goods of Special Importance) Act 1957)",
+        "Section 3(3) (Additional Duties of Excise (Goods of Special Importance) Act 1957)",
+        "Section 4 (Central Excises & Salt Act, 1944)"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Dispute over State's power to levy taxes/fees on industrial alcohol",
+    "party_count": 10,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Article 47 of the Constitution of India",
+        "Article 254 of the Constitution of India",
+        "Entry 52 of List I of the Seventh Schedule to the Constitution of India",
+        "Entry 8 and 51 of List II of the Seventh Schedule to the Constitution of India",
+        "Entry 33 of List III of the Seventh Schedule to the Constitution of India",
+        "Section 24A & 24B of the U.P. Excise Act, 1910",
+        "Section 49 of the Bombay Prohibition Act, 1949",
+        "Industries (Development & Regulation) Act, 1951"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to State Law (Bombay Prohibition Act)",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Entry 31 of List II (Provincial Legislative Powers under the Government of India Act or Constitution)",
+    "Entry 19 of List I (Central Legislative Powers under the Government of India Act or Constitution)",
+    "Section 14-B of the Bombay Abkari Act, 1878"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Taxation and Legislative Competence",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Entry 8, List II",
+    "Entry 51, List II",
+    "Entry 52, List I",
+    "Entry 84, List I",
+    "Entry 33, List III",
+    "Entry 54, List II",
+    "Section 18G, IDR Act",
+    "Entry 66, List II",
+    "Article 141",
+    "Entry 62",
+    "Entry 24, List II",
+    "Article 286",
+    "Article 269"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Civil",
+    "case_subtype": "Customs and Import/Export Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Section 167(8) of the Sea Customs Act, 1878",
+        "Section 3(2) of the Imports and Exports (Control) Act, 1947",
+        "Section 3(1) of the Imports and Exports (Control) Act, 1947",
+        "Article 226 of the Constitution of India",
+        "Section 182 of the Sea Customs Act, 1878",
+        "Section 5 of the Imports and Exports (Control) Act, 1947"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Tax Law",
+    "case_subtype": "Income Tax Appeal",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Section 5 of the Foreign Trade (Development and Regulation) Act, 1992",
+        "Section 80-IB of the Income Tax Act, 1961",
+        "Section 80-HH of the Income Tax Act (mentioned in reference to Sterling Foods case)",
+        "Section 28 of the Income Tax Act",
+        "Section 75 of the Customs Act, 1962",
+        "Section 37 of the Central Excise Act, 1944"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Election Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Article 329(b) Constitution of India", "Article 324 Constitution of India", "Section 100 Representation of the People Act, 1951"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Violation of Article 301 and 304(a) of the Constitution of India related to freedom of trade and commerce",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Article 301 Constitution of India", "Article 304(a) Constitution of India", "Section 3 Madhya Bharat Sales Tax Act"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Income Tax Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Section 80HH of the Income Tax Act, 1961", "Imports and Exports (Control) Act, 1947", "Imports (Control) Order, 1955"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Criminal",
+  "case_subtype": "Unknown - Insufficient information",
+  "party_count": null,
+  "seriousness": "HIGH",
+  "legal_sections": []
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Customs Duty Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Section 39 of the Sea Customs Act, 1878", "Item 72(3) of the First Schedule to the Indian Customs Tariff", "Industries Development and Regulation Act, 1951"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Property Dispute (Adverse Possession)",
+  "party_count": 5,
+  "seriousness": "MEDIUM",
+  "legal_sections": []
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Violation of Fundamental Rights (Freedom of Speech and Expression)",
+  "party_count": 1,
+  "seriousness": "HIGH",
+  "legal_sections": ["Article 32 of the Constitution of India", "Article 19(1)(a) of the Constitution of India", "Section 66A of the Information Technology Act of 2000"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Criminal",
+  "case_subtype": "Murder",
+  "party_count": 3,
+  "seriousness": "HIGH",
+  "legal_sections": ["Section 106 Indian Evidence Act", "Section 161 Cr.P.C."]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Contract Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Section 55 of the Indian Contract Act", "Specific Relief Act"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Criminal",
+    "case_subtype": "Rape and Murder",
+    "party_count": 4,
+    "seriousness": "HIGH",
+    "legal_sections": ["Section 65-B Indian Evidence Act, 1872"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to admissibility of polygraph, brain mapping, and narcoanalysis tests",
+  "party_count": 3,
+  "seriousness": "HIGH",
+  "legal_sections": [
+    "Article 20(3) Constitution of India",
+    "Article 21 Constitution of India",
+    "Section 161(2) CrPC",
+    "Section 27 Evidence Act",
+    "Section 73 Evidence Act"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to Constitutional Amendment",
+  "party_count": 4,
+  "seriousness": "HIGH",
+  "legal_sections": ["Article 14", "Article 31C", "Article 39(b)", "Article 39(c)", "Article 368"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to Government Policy",
+  "party_count": 4,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Article 19(1)(a) Constitution of India",
+    "Article 14 Constitution of India",
+    "Section 3 Imports and Exports Control Act, 1947",
+    "Section 4A Imports and Exports Control Act, 1947",
+    "Section 3 Essential Commodities Act, 1955",
+    "Section 2 Essential Commodities Act, 1955"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Challenge to State Laws Restricting Cow Slaughter",
+    "party_count": 4,
+    "seriousness": "HIGH",
+    "legal_sections": [
+        "Article 19(1)(g)",
+        "Article 19(6)"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Criminal",
+    "case_subtype": "Narcotics Offenses",
+    "party_count": 2,
+    "seriousness": "HIGH",
+    "legal_sections": [
+        "NDPS Act, 1985",
+        "Section 31(a) NDPS Act",
+        "Section 36 NDPS Act",
+        "Section 37 NDPS Act",
+        "Section 50 NDPS Act",
+        "Section 35 NDPS Act",
+        "Section 41 NDPS Act",
+        "Section 42 NDPS Act",
+        "Section 43 NDPS Act",
+        "Section 51 NDPS Act",
+        "Section 54 NDPS Act",
+        "Section 57 NDPS Act",
+        "Section 50(4) NDPS Act",
+        "Opium Act, 1857",
+        "Opium Act, 1878",
+        "Dangerous Drug Act, 1930",
+        "Sections 96 to 103 CrPC",
+        "Section 165 CrPC",
+        "Section 52 CrPC, 1898",
+        "Section 51(2) CrPC, 1973",
+        "Sections 100 CrPC",
+        "Section 165 CrPC"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Challenge to State Law on Intoxicating Liquors",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Entry 8, List II",
+        "Entry 51, List II",
+        "Entry 52, List I",
+        "Section 2, Industries (Development and Regulation) Act, 1951",
+        "Article 19(1)(g)",
+        "Article 19(6)",
+        "Article 14",
+        "Section 3, Essential Commodities Act, 1955"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Service Matter/Promotion Dispute",
+  "party_count": 5,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Article 16 Constitution of India"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Inter-State Trade and Commerce Regulation",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Article 301 Constitution of India",
+    "Article 302 Constitution of India",
+    "Article 303 Constitution of India",
+    "Article 304 Constitution of India",
+    "List I Seventh Schedule Constitution of India",
+    "List II Seventh Schedule Constitution of India",
+    "List III Seventh Schedule Constitution of India"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to the Right to Information Act, 2005",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Article 19(1)(a) of the Constitution of India",
+    "Article 32 of the Constitution of India",
+    "Article 226 of the Constitution of India",
+    "Right to Information Act, 2005",
+    "Section 2(h) of the Right to Information Act, 2005",
+    "Section 2(j) of the Right to Information Act, 2005",
+    "Section 4(2) of the Right to Information Act, 2005",
+    "Section 12 of the Right to Information Act, 2005",
+    "Section 15 of the Right to Information Act, 2005",
+    "Section 19(1) of the Right to Information Act, 2005",
+    "Section 19(3) of the Right to Information Act, 2005",
+    "Section 19(6) of the Right to Information Act, 2005",
+    "Section 19(7) of the Right to Information Act, 2005",
+    "Section 23 of the Right to Information Act, 2005"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Public Interest Litigation (PIL) / Environmental Law / Contract Dispute",
+  "party_count": 4,
+  "seriousness": "HIGH",
+  "legal_sections": [
+    "Article 21 of the Constitution of India",
+    "Article 49 of the Constitution of India",
+    "Article 51-A(g) of the Constitution of India",
+    "Article 226 of the Constitution of India"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Determination of 'State' under Article 12",
+  "party_count": 4,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Article 12 Constitution of India"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Public Interest Litigation (PIL) / Judicial Review of Government Action",
+  "party_count": 4,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Article 323A Constitution of India",
+    "Article 323B Constitution of India",
+    "Article 11 Constitution of India"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Criminal",
+  "case_subtype": "Illegal Mining/Environmental Crime",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Sections 149",
+    "150",
+    "151",
+    "152 CrPC",
+    "Customs Act",
+    "Gold (Control) Act",
+    "Public Trust Doctrine"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Challenge to State Law (Bombay Lotteries and Prize Competitions Control and Tax Act, 1948)",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Article 19(1)(g)",
+        "Article 19(6)",
+        "Article 245",
+        "Article 246",
+        "Article 276",
+        "Article 301",
+        "Article 302",
+        "Article 304(b)",
+        "Entry 33 of List III",
+        "Entry 34 of List I",
+        "Entry 60",
+        "Entry 62",
+        "Section 2(1)(d)",
+        "Section 3",
+        "Section 4",
+        "Section 7",
+        "Section 8",
+        "Section 9",
+        "Section 10",
+        "Section 11",
+        "Section 12",
+        "Section 12A"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Public Interest Litigation (PIL) related to Witness Protection",
+  "party_count": 2,
+  "seriousness": "HIGH",
+  "legal_sections": ["Article 32 of the Constitution of India"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Criminal",
+    "case_subtype": "Culpable Homicide Not Amounting to Murder",
+    "party_count": 2,
+    "seriousness": "HIGH",
+    "legal_sections": ["Section 300 IPC", "Section 357 CrPC"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Educational Institution Dispute/Validity of University Establishment",
+  "party_count": 4,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Article 21 of the Constitution of India",
+    "Entry 66 of List I, Seventh Schedule of the Constitution of India",
+    "Entry 32 List II, Seventh Schedule of the Constitution of India",
+    "Section 4(1) of the relevant State Act (likely Madhya Pradesh Vishwavidyalaya Adhiniyam, 1995 or a similar act concerning Universities)"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Determination of 'State' under Article 12",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Article 12", "Article 14", "Article 16", "Article 32", "Article 226", "Article 13(2)"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Writ Petition (Article 32 - Enforcement of Fundamental Rights)",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": ["Article 12 Constitution of India", "Article 19 Constitution of India", "Article 32 Constitution of India"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Customs and Trade Regulation Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 8(1) of the Foreign Exchange Regulation Act",
+    "Section 19 of the Sea Customs Act",
+    "Section 167(8) of the Sea Customs Act",
+    "Section 178A of the Sea Customs Act"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Civil",
+    "case_subtype": "Property Dispute/Inheritance",
+    "party_count": 3,
+    "seriousness": "MEDIUM",
+    "legal_sections": []
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Dispute regarding import-export scheme and territorial jurisdiction",
+  "party_count": 4,
+  "seriousness": "MEDIUM",
+  "legal_sections": []
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Constitutional",
+    "case_subtype": "Challenge to the Constitutional Validity of the Insolvency and Bankruptcy Code, 2016",
+    "party_count": 2,
+    "seriousness": "HIGH",
+    "legal_sections": [
+        "Section 7 of the Insolvency and Bankruptcy Code, 2016",
+        "Sections 8 and 9 of the Insolvency and Bankruptcy Code, 2016",
+        "Sections 21 and 24 of the Insolvency and Bankruptcy Code, 2016",
+        "Section 12A of the Insolvency and Bankruptcy Code, 2016",
+        "Section 29A of the Insolvency and Bankruptcy Code, 2016",
+        "Section 29A(c) of the Insolvency and Bankruptcy Code, 2016",
+        "Section 29A(j) of the Insolvency and Bankruptcy Code, 2016",
+        "Section 210 of the Insolvency and Bankruptcy Code, 2016",
+        "Section 164 of the Companies Act, 2013"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Election Petition",
+  "case_subtype": "Dispute regarding validity of election results",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 61 Evidence Act",
+    "Section 62 Evidence Act",
+    "Section 63 Evidence Act",
+    "Section 64 Evidence Act",
+    "Section 65 Evidence Act",
+    "Section 65A Evidence Act",
+    "Section 65B Evidence Act",
+    "Section 2(i) Information Technology Act, 2000",
+    "Section 5(6) Civil Evidence Act, 1968",
+    "Section 6(1) Civil Evidence Act, 1968",
+    "Section 6(5) Civil Evidence Act, 1968",
+    "Section 68 Civil Evidence Act"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Election Petition",
+    "case_subtype": "Challenge to Election Results",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": []
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Price Control and Taxation Dispute",
+  "party_count": 4,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Central Sales Tax Act, 1956, Section 14",
+    "Central Sales Tax Act, 1956, Section 15",
+    "Bihar Sales Tax Act, Section 5(1)",
+    "Essential Commodities Act"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to Tax Legislation",
+  "party_count": 3,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Entry 62, List II, Constitution of India",
+    "Article 246(1), Constitution of India",
+    "List I, Constitution of India",
+    "List II, Constitution of India"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Dispute regarding the tenure and resignation of a High Court Judge",
+  "party_count": 3,
+  "seriousness": "HIGH",
+  "legal_sections": [
+    "Article 124(2)(a)",
+    "Article 217(1)(a)",
+    "Article 101(3)(b)",
+    "Article 222"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Service Dispute/Judicial Review",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 123 Indian Evidence Act, 1872",
+    "Section 162 Indian Evidence Act, 1872",
+    "Section 115 Code of Civil Procedure",
+    "Article 227 Constitution of India",
+    "Article 133 Constitution of India"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Labour Law",
+  "case_subtype": "Industrial Dispute regarding Termination of Service",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Industrial Disputes Act, 1947",
+    "Limitation Act, 1963",
+    "Section 10(1)(c) Industrial Disputes Act, 1947",
+    "Industrial Employment (Standing Orders) Act, 1946"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Civil",
+    "case_subtype": "Tax Exemption Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": [
+        "Section 5A of the Central Excise and Salt Act 1944",
+        "Section 3 of the Additional Duties of Excise (Goods of Specified Importance) Act 1957",
+        "Chapter X of the Central Excise Rules 1944",
+        "Rules 9(1), 52A, 53, 54, 173B, 173C, 173F and 226 of the Excise Rules",
+        "Section 8 of the Tariff Act"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Customs Duty Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Imports and Exports (Control) Act, 1947",
+    "Indian Tariff Act, 1934, item 45(3)",
+    "Indian Tariff Act, 1934, item 61(8)",
+    "Article 226 of the Constitution of India",
+    "Article 136 of the Constitution of India",
+    "Sea Customs Act, 1878, Section 188"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+    "case_type": "Civil",
+    "case_subtype": "Insolvency Resolution",
+    "party_count": 2,
+    "seriousness": "HIGH",
+    "legal_sections": [
+        "Insolvency and Bankruptcy Code, 2016",
+        "Sick Industrial Companies (Special Provisions) Act, 1985",
+        "Recovery of Debt Due to Banks and Financial Institutions Act, 1993",
+        "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002",
+        "Companies Act, 2013",
+        "Presidency Towns Insolvency Act, 1909",
+        "Provincial Insolvency Act, 1920",
+        "Article 254(2)"
+    ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Land Acquisition Dispute/Town Planning",
+  "party_count": 3,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 49 of the MRTP Act",
+    "Section 126(2) of the MRTP Act",
+    "Section 6 of the Land Acquisition Act",
+    "Section 9 of the Land Acquisition Act",
+    "Section 44 of the MRTP Act"
+  ]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Constitutional",
+  "case_subtype": "Challenge to the validity of a state law",
+  "party_count": 4,
+  "seriousness": "HIGH",
+  "legal_sections": [
+    "Article 19(1)(f) of the Indian Constitution",
+    "Article 31 of the Indian Constitution",
+    "Article 228 of the Indian Constitution",
+    "Section 37 of the Bengal Revenue Sales Act, 1859",
+    "West Bengal Revenue Sales (West Bengal Amendment) Act, 1950"
+  ]
+}
+```
+
+Raw response from Gemini:
+Raw response from Gemini:
+```json
+{
+    "case_type": "Civil",
+    "case_subtype": "Insolvency Proceeding / Contract Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Insolvency and Bankruptcy Code, 2016"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+```json
+{
+    "case_type": "Civil",
+    "case_subtype": "Insolvency Proceeding / Contract Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Insolvency and Bankruptcy Code, 2016"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Tax/Customs Valuation Dispute",
+  "party_count": 2,
+{
+    "case_type": "Civil",
+    "case_subtype": "Insolvency Proceeding / Contract Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Insolvency and Bankruptcy Code, 2016"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Tax/Customs Valuation Dispute",
+  "party_count": 2,
+    "case_subtype": "Insolvency Proceeding / Contract Dispute",
+    "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Insolvency and Bankruptcy Code, 2016"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Tax/Customs Valuation Dispute",
+  "party_count": 2,
+    "seriousness": "MEDIUM",
+    "legal_sections": ["Insolvency and Bankruptcy Code, 2016"]
+}
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Tax/Customs Valuation Dispute",
+  "party_count": 2,
+```
+
+Raw response from Gemini:
+```json
+{
+  "case_type": "Civil",
+  "case_subtype": "Tax/Customs Valuation Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 30(a) of the Sea Customs Act, 1878",
+  "case_type": "Civil",
+  "case_subtype": "Tax/Customs Valuation Dispute",
+  "party_count": 2,
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 30(a) of the Sea Customs Act, 1878",
+  "seriousness": "MEDIUM",
+  "legal_sections": [
+    "Section 30(a) of the Sea Customs Act, 1878",
+    "Section 30(b) of the Sea Customs Act, 1878",
+    "Section 4(a) of the Central Excises and Salt Act"
+  ]
+}
+```

@@ -1,0 +1,8 @@
+.env
+/virtualenv
+.idea
+*.xlsx
+*.csv
+test.py
+test2.py
+Rectifying Datasets/testingGPT.py
