@@ -34,7 +34,7 @@ def assign_judge_using_llm(case_data, judges_data):
     **Instructions:**
     - Select a judge whose specialization **matches** the case type.
     - Prioritize judges with **experience in similar past cases**.
-    - Prefer judges with a **higher success rate & lower pending cases**.
+    - Prefer judges with a **lower pending cases**.
     - Output the result in JSON format as follows:
     ```json
     {{
@@ -48,14 +48,11 @@ def assign_judge_using_llm(case_data, judges_data):
     model = genai.GenerativeModel('gemini-2.0-flash')
     response = model.generate_content(prompt)
 
-    # Extract JSON response
     response_text = response.text.strip()
 
-    # Handle Markdown-wrapped JSON
     if response_text.startswith("```json"):
         response_text = response_text[7:-3]
 
-    # Parse JSON response
     try:
         assigned_judge = json.loads(response_text)
         return assigned_judge
@@ -63,7 +60,7 @@ def assign_judge_using_llm(case_data, judges_data):
         print("Error parsing Gemini response:", response_text)
         return {"assigned_judge": "Unknown", "reason": "Could not determine a judge"}
 
-# Example case data extracted from judgments
+
 case_data = {
     "case_type": "Civil",
     "case_subtype": "Tax Refund Suit",
@@ -75,7 +72,6 @@ case_data = {
     ]
 }
 
-# Assign a judge
 assigned_judge = assign_judge_using_llm(case_data, judges_data)
 print(f"Assigned Judge: {assigned_judge['assigned_judge']}")
 print(f"Reason: {assigned_judge['reason']}")

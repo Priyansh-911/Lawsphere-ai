@@ -328,7 +328,7 @@ class LegalCaseImputer:
                         "Subtype of Case": result["Subtype of Case"],
                         "No. of Parties": result["No. of Parties"],
                         "Seriousness": result["Seriousness"],
-                        "Sections": ', '.join(result["Sections"])  # Convert list to string
+                        "Sections": ', '.join(result["Sections"])
                     })
 
             await asyncio.sleep(10)  # Prevent rate limit issues
