@@ -1,0 +1,28 @@
+Expected System Behavior
+This detailed case description is designed to rigorously test the Lawsphere system:
+
+Extracted Attributes:
+Case Type: Criminal
+Case Subtype: Financial Fraud
+Party Count: 5
+Seriousness: HIGH (due to the scale of fraud, number of victims, and financial impact)
+Legal Sections: ["Section 420 IPC", "Section 406 IPC", "Section 120B IPC", "Section 467 IPC", "Section 13(2) read with Section 13(1)(d) of the Prevention of Corruption Act, 1988"]
+Complexity: HIGH (involves multiple parties, international transactions, and forensic evidence)
+Judge Allocation:
+Based on the sample judge dataset (Page 44), the system should recommend Justice C. Mehta (specialization: Criminal, past cases: Murder, Assault, Narcotics Offenses, Environmental Crimes, 15 pending cases). Reasoning: Justice Mehta’s specialization in criminal law aligns with the case type, despite a higher pending case count compared to others like Justice E. Reddy (Tax Law) or Justice F. Verma (Environmental Law), who are not suitable for this criminal case.
+Integration Testing Scenarios:
+User Application: Test the submission process by uploading the PDF and ensuring the system extracts the correct fields (case type, subtype, seriousness, legal sections, party count).
+AI Processing: Verify that the Gemini LLM correctly identifies the attributes and generates a JSON output like:
+
+json
+{
+  "case_type": "Criminal",
+  "case_subtype": "Financial Fraud",
+  "party_count": 5,
+  "legal_sections": ["Section 420 IPC", "Section 406 IPC", "Section 120B IPC", "Section 467 IPC", "Section 13(2) read with Section 13(1)(d) of the Prevention of Corruption Act, 1988"]
+}
+
+Admin Application: Confirm that the admin can review the AI recommendation, see the suggested judge (Justice C. Mehta), and approve or override the allocation.
+Data Pipeline: Ensure the LegalCaseImputer class processes the detailed text, handles attachments (e.g., FIR, bank statements), and manages any errors (e.g., missing fields).
+Database Storage: Check that the PostgreSQL database stores the case data, AI output, and attachments correctly for audit trails.
+Scalability Test: The lengthy description (3-4 pages) tests the system’s ability to handle large inputs without performance degradation (e.g., API response time <300 ms, inference time ~1.2 seconds).
