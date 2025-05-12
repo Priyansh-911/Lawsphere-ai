@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 from flask import Flask, request, jsonify
 import fitz
+import requests
 
 
 load_dotenv()
@@ -104,20 +105,37 @@ def judge_allocation():
     
     if request.method == "POST":
         pdf_file = request.files.get("case_file")
-        judges_data_raw = request.form.get("judges_data")
+        url = "https://lawsphere-back.onrender.com/lawsphere-api/v1/admin_settings/judge/?page=1&page_size=10"
+        header = {
+            'Authorization' : 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUyMTU5NDE1LCJpYXQiOjE3NDY5NzU0MTUsImp0aSI6ImZjN2VhZjg1ZGRhNDQwNTFhZmRkZDZkNzNiNTJjNWVhIiwidXNlcl9pZCI6MX0.81tBCw9r4uLiCbVf7sv30rA0LLKuZva3o4w1bf7e-Cs'
+        }
+
+        res = requests.get(url, headers=header)
+        res = res.json()
+        judges = res.get("results", [])
+        processed_judges = []
+        for judge in judges:
+            judge_info = {
+                "id": judge["id"],
+                "name": judge["name"],
+                "email": judge["email"],
+                "gender": judge["gender"],
+                "specialization": judge["specialization"],
+                "pending_cases": judge["pending_cases"],
+                "court_name": judge["court_data"]["name"],
+                "experience_years": 2025 - int(judge["date_of_appointment"][:4]),
+                "past_cases": judge["past_cases"]
+            }
+        processed_judges.append(judge_info)
+
+        # judges_data_raw = request.form.get("judges_data")
 
         if not pdf_file:
             return jsonify({"error": "Missing 'case_file"}), 400
 
-        try:
-            judges_data = json.loads(judges_data_raw)  # convert string to dict/list
-        except json.JSONDecodeError:
-            return jsonify({"error": "Invalid JSON in 'judges_data'"}), 400
-
-
         case_text = extract_text_from_pdf(pdf_file)
         case_data = extract_case_details(case_text)
-        allocation_result = assign_best_judge(case_data, judges_data)
+        allocation_result = assign_best_judge(case_data, processed_judges)
 
         allocation_result["case_data"] = case_data
         return jsonify(allocation_result)
