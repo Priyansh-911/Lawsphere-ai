@@ -91,6 +91,9 @@ Output JSON:
         print(f"[Judge allocation error] {e}")
         return {"assigned_judge": "Unknown", "reason": "Error in allocation"}
 
+@app.route("/")
+def index():
+    return jsonify({"message": "Welcome to the Judge Allocation API!"})
 
 
 @app.route("/judge_allocation", methods=["POST"])
