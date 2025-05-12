@@ -96,27 +96,31 @@ def index():
     return jsonify({"message": "Welcome to the Judge Allocation API!"})
 
 
-@app.route("/judge_allocation", methods=["POST"])
+@app.route("/judge_allocation", methods=["GET", "POST"])
 def judge_allocation():
     # data = json.loads(request.data) 
-    pdf_file = request.files.get("case_file")
-    judges_data_raw = request.form.get("judges_data")
+    if request.method == "GET":
+        return jsonify({"message": "Will allocate a judge for you!"})
+    
+    if request.method == "POST":
+        pdf_file = request.files.get("case_file")
+        judges_data_raw = request.form.get("judges_data")
 
-    if not pdf_file:
-        return jsonify({"error": "Missing 'case_file"}), 400
+        if not pdf_file:
+            return jsonify({"error": "Missing 'case_file"}), 400
 
-    try:
-        judges_data = json.loads(judges_data_raw)  # convert string to dict/list
-    except json.JSONDecodeError:
-        return jsonify({"error": "Invalid JSON in 'judges_data'"}), 400
+        try:
+            judges_data = json.loads(judges_data_raw)  # convert string to dict/list
+        except json.JSONDecodeError:
+            return jsonify({"error": "Invalid JSON in 'judges_data'"}), 400
 
 
-    case_text = extract_text_from_pdf(pdf_file)
-    case_data = extract_case_details(case_text)
-    allocation_result = assign_best_judge(case_data, judges_data)
+        case_text = extract_text_from_pdf(pdf_file)
+        case_data = extract_case_details(case_text)
+        allocation_result = assign_best_judge(case_data, judges_data)
 
-    allocation_result["case_data"] = case_data
-    return jsonify(allocation_result)
+        allocation_result["case_data"] = case_data
+        return jsonify(allocation_result)
 
 
 
