@@ -126,7 +126,7 @@ def judge_allocation():
                 "experience_years": 2025 - int(judge["date_of_appointment"][:4]),
                 "past_cases": judge["past_cases"]
             }
-        processed_judges.append(judge_info)
+            processed_judges.append(judge_info)
 
         # judges_data_raw = request.form.get("judges_data")
 
@@ -136,6 +136,13 @@ def judge_allocation():
         case_text = extract_text_from_pdf(pdf_file)
         case_data = extract_case_details(case_text)
         allocation_result = assign_best_judge(case_data, processed_judges)
+        
+        assigned_name = allocation_result.get("assigned_judge")
+        matched_judge = next((judge for judge in processed_judges if judge["name"] == assigned_name), None)
+        if matched_judge:
+            allocation_result["judge_id"] = matched_judge["id"]
+        else:
+            allocation_result["judge_id"] = None
 
         allocation_result["case_data"] = case_data
         return jsonify(allocation_result)
