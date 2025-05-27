@@ -3,6 +3,7 @@ import json
 from dotenv import load_dotenv
 import google.generativeai as genai
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import fitz
 import requests
 
@@ -10,6 +11,7 @@ import requests
 load_dotenv()
 API_KEY = os.environ["GOOGLE_API_KEY"]
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
