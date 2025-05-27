@@ -122,8 +122,6 @@ def judge_allocation():
                 "gender": judge["gender"],
                 "specialization": judge["specialization"],
                 "pending_cases": judge["pending_cases"],
-                "court_name": judge["court_data"]["name"],
-                "experience_years": 2025 - int(judge["date_of_appointment"][:4]),
                 "past_cases": judge["past_cases"]
             }
             processed_judges.append(judge_info)
